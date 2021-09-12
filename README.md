@@ -18,7 +18,15 @@ Acto seguido ejecute:
 Puede verificar que el servidor está funcionando correctamente utilizando la siguiente URL en un navegador o un cliente rest de su preferencia:
 > http://localhost:8080/myapp/myresource
 
-Como archivo adjunto, en el repositorio se encuentra una colección de postman que puede ser utilizada para probar el servidor en caso de requerirlo
+Como archivo adjunto, en el repositorio se encuentra una colección de postman que puede ser utilizada para probar el servidor en caso de requerirlo. A continuación se presentan las URLS base para utilizar el servicio desde un cliente:
+
+
+| Operación | HTTP Request | URL | Comentarios |
+|:--------|:-----------|:-----------|:-----------|
+| FindAll | GET | http://localhost:8080/myapp/myresource/paseos |  |
+| CreatePaseo | POST | http://localhost:8080/myapp/myresource/paseos | Se debe enviar el nuevo paseo con los datos requeridos en el body |
+| DeletePaseo | DEL | http://localhost:8080/myapp/myresource/paseos/{id} | Se debe enviar el id del paseo a eliminar |
+| UpdatePaseo | PUT | http://localhost:8080/myapp/myresource/paseos | Se debe enviar el paseo con los datos actualizados en el body |
 
 ### Cliente:
 Para ejecutar el cliente utilice una terminal y ubíquese en la siguiente ruta: 
