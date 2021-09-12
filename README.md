@@ -18,6 +18,8 @@ Acto seguido ejecute:
 Puede verificar que el servidor está funcionando correctamente utilizando la siguiente URL en un navegador o un cliente rest de su preferencia:
 > http://localhost:8080/myapp/myresource
 
+Como archivo adjunto, en el repositorio se encuentra una colección de postman que puede ser utilizada para probar el servidor en caso de requerirlo
+
 ### Cliente:
 Para ejecutar el cliente utilice una terminal y ubíquese en la siguiente ruta: 
 > WebServices\P1-ClienteServidorRestMonolito\RestClient
@@ -31,7 +33,6 @@ Utilice las siguientes opciones para consumir los servicios del servidor
 > 3. Editar origen y destino de un paseo
 > 4. Crear paseo
 > 5. Salir
-> 
 
 ## ¿Cómo ejecutar el punto 2?
 Este punto consta de 6 proyectos que pueden ser encontrados en la sub-carpeta P2-Microservicios.
