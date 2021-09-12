@@ -98,7 +98,7 @@ Acto seguido ejecute:
 > mvn clean spring-boot:run
 
 
-## Probando la aplicación completa 
+### Probando la aplicación completa 
 Una vez estén corriendo todos los procesos requeridos, utilice las siguientes URLS para consumir los servicios ofrecidos.
 
 ============================ Operaciones ============================
